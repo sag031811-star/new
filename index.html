@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>islandfactoryable | 전문 3D 렌더링 &amp; 건축 비주얼라이제이션 스튜디오</title>
+<meta name="description" content="islandfactoryable은 디벨로퍼와 건축가를 위해 사실적인 3D 인테리어·익스테리어 비주얼, 건축 애니메이션, 제품 렌더링을 제작합니다.">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- Preloader -->
+<div class="preloader" id="preloader">
+  <div class="preloader_logo">islandfactoryable</div>
+  <div class="preloader_num" id="preloaderNum">0</div>
+</div>
+
+<!-- Navbar -->
+<header class="navbar" id="navbar">
+  <div class="navbar_container">
+    <a href="#top" class="navbar_logo">islandfactoryable</a>
+
+    <nav class="navbar_nav" id="navbarNav">
+      <ul class="navbar_nav_list">
+        <li class="navbar_nav_item"><a href="#top" class="navbar_nav_link">Home</a></li>
+        <li class="navbar_nav_item"><a href="#portfolio" class="navbar_nav_link">Portfolio</a></li>
+        <li class="navbar_nav_item navbar_nav_dd">
+          <button class="navbar_nav_dd_btn" type="button" aria-expanded="false">
+            <span>Services</span>
+            <svg viewBox="0 0 20 20" fill="none" class="dd_icon"><path d="M5 7.5L10 12.5L15 7.5" stroke="currentColor" stroke-width="1.5"/></svg>
+          </button>
+          <div class="navbar_nav_dd_list">
+            <a href="#services" class="navbar_nav_dd_link">3D Interior Visualization</a>
+            <a href="#services" class="navbar_nav_dd_link">3D Architectural Visualization</a>
+            <a href="#services" class="navbar_nav_dd_link">3D Animation</a>
+            <a href="#services" class="navbar_nav_dd_link">3D Modelling (Soon)</a>
+          </div>
+        </li>
+        <li class="navbar_nav_item"><a href="#contact" class="navbar_nav_link">Contacts</a></li>
+      </ul>
+
+      <div class="navbar_cta">
+        <div class="navbar_cta_title">다음 프로젝트에 대해 이야기 나눠요</div>
+        <div class="navbar_cta_btns">
+          <a href="#contact" class="btn btn-black"><span class="btn_face btn_face-front">Schedule a call</span><span class="btn_face btn_face-back">Schedule a call</span></a>
+          <a href="#contact" class="btn btn-black"><span class="btn_face btn_face-front">Discuss the project</span><span class="btn_face btn_face-back">Discuss the project</span></a>
+        </div>
+      </div>
+    </nav>
+
+    <button class="navbar_menu_btn" id="menuBtn" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero_bg">
+      <div class="hero_bg_slide active" style="background-image:url('https://picsum.photos/seed/island-hero-1/1920/1080')"></div>
+      <div class="hero_bg_slide" style="background-image:url('https://picsum.photos/seed/island-hero-2/1920/1080')"></div>
+      <div class="hero_bg_slide" style="background-image:url('https://picsum.photos/seed/island-hero-3/1920/1080')"></div>
+      <div class="hero_bg_overlay"></div>
+    </div>
+    <div class="hero_container">
+      <div class="hero_content">
+        <div class="hero_subheading">전문 3D 렌더링 스튜디오</div>
+        <h1 class="hero_heading">세계적 수준의 3D 비주얼라이제이션으로 당신의 프로젝트에 생명을 불어넣습니다</h1>
+      </div>
+      <div class="hero_btns">
+        <a href="#portfolio" class="btn btn-glass"><span class="btn_face btn_face-front">Portfolio</span><span class="btn_face btn_face-back">Portfolio</span></a>
+        <a href="#contact" class="btn btn-white"><span class="btn_face btn_face-front">Start project</span><span class="btn_face btn_face-back">Start project</span></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Projects -->
+  <section class="portfolio" id="portfolio">
+    <div class="container-wide">
+      <h2 class="section_heading reveal">Featured Projects</h2>
+
+      <div class="portfolio_grid">
+        <a href="#" class="portfolio_item">
+          <img src="https://picsum.photos/seed/marama-1/900/1100" alt="Marama project exterior" loading="lazy">
+          <div class="portfolio_item_overlay"></div>
+          <div class="portfolio_item_info">
+            <h3 class="portfolio_item_title">Marama</h3>
+            <span class="portfolio_item_loc">Fiji</span>
+          </div>
+        </a>
+        <a href="#" class="portfolio_item">
+          <img src="https://picsum.photos/seed/kaimana-1/900/1100" alt="Kaimana project interior" loading="lazy">
+          <div class="portfolio_item_overlay"></div>
+          <div class="portfolio_item_info">
+            <h3 class="portfolio_item_title">Kaimana</h3>
+            <span class="portfolio_item_loc">Hawaii, USA</span>
+          </div>
+        </a>
+        <a href="#" class="portfolio_item">
+          <img src="https://picsum.photos/seed/kaimana-2/900/1100" alt="Kaimana bedroom interior" loading="lazy">
+          <div class="portfolio_item_overlay"></div>
+          <div class="portfolio_item_info">
+            <h3 class="portfolio_item_title">Kaimana</h3>
+            <span class="portfolio_item_loc">Hawaii, USA</span>
+          </div>
+        </a>
+        <a href="#" class="portfolio_item">
+          <img src="https://picsum.photos/seed/isola-1/900/1100" alt="Isola villa exterior" loading="lazy">
+          <div class="portfolio_item_overlay"></div>
+          <div class="portfolio_item_info">
+            <h3 class="portfolio_item_title">Isola</h3>
+            <span class="portfolio_item_loc">Sardinia, Italy</span>
+          </div>
+        </a>
+        <a href="#" class="portfolio_item">
+          <img src="https://picsum.photos/seed/marama-2/900/1100" alt="Marama coastal exterior" loading="lazy">
+          <div class="portfolio_item_overlay"></div>
+          <div class="portfolio_item_info">
+            <h3 class="portfolio_item_title">Marama</h3>
+            <span class="portfolio_item_loc">Fiji</span>
+          </div>
+        </a>
+        <a href="#" class="portfolio_item">
+          <img src="https://picsum.photos/seed/driftwood-1/900/1100" alt="Driftwood forest house" loading="lazy">
+          <div class="portfolio_item_overlay"></div>
+          <div class="portfolio_item_info">
+            <h3 class="portfolio_item_title">Driftwood</h3>
+            <span class="portfolio_item_loc">New Zealand</span>
+          </div>
+        </a>
+        <a href="#" class="portfolio_item">
+          <img src="https://picsum.photos/seed/isola-2/900/1100" alt="Isola interior bedroom" loading="lazy">
+          <div class="portfolio_item_overlay"></div>
+          <div class="portfolio_item_info">
+            <h3 class="portfolio_item_title">Isola</h3>
+            <span class="portfolio_item_loc">Sardinia, Italy</span>
+          </div>
+        </a>
+        <a href="#" class="portfolio_item">
+          <img src="https://picsum.photos/seed/driftwood-2/900/1100" alt="Driftwood terrace" loading="lazy">
+          <div class="portfolio_item_overlay"></div>
+          <div class="portfolio_item_info">
+            <h3 class="portfolio_item_title">Driftwood</h3>
+            <span class="portfolio_item_loc">New Zealand</span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section class="services" id="services">
+    <div class="container-wide">
+      <h2 class="services_heading reveal">건축적 아이디어를 한층 끌어올리고 프로젝트를 돋보이게 하는 3D 비주얼을 만듭니다</h2>
+
+      <div class="carousel" id="carousel">
+        <button class="carousel_arrow carousel_arrow-prev" id="carouselPrev" aria-label="Previous">&#8592;</button>
+        <div class="carousel_track" id="carouselTrack">
+          <div class="carousel_card">
+            <img src="https://picsum.photos/seed/service-model/700/700" alt="3D Modelling">
+            <div class="carousel_card_gradient"></div>
+            <h3 class="carousel_card_title">3D Modelling <span>(Coming Soon)</span></h3>
+            <span class="carousel_card_link">View service</span>
+          </div>
+          <div class="carousel_card">
+            <img src="https://picsum.photos/seed/service-anim/700/700" alt="3D Animation Rendering">
+            <div class="carousel_card_gradient"></div>
+            <h3 class="carousel_card_title">3D Animation Rendering</h3>
+            <span class="carousel_card_link">View service</span>
+          </div>
+          <div class="carousel_card">
+            <img src="https://picsum.photos/seed/service-arch/700/700" alt="3D Architectural Visualization">
+            <div class="carousel_card_gradient"></div>
+            <h3 class="carousel_card_title">3D Architectural Visualization</h3>
+            <span class="carousel_card_link">View service</span>
+          </div>
+          <div class="carousel_card">
+            <img src="https://picsum.photos/seed/service-int/700/700" alt="3D Interior Visualization">
+            <div class="carousel_card_gradient"></div>
+            <h3 class="carousel_card_title">3D Interior Visualization</h3>
+            <span class="carousel_card_link">View service</span>
+          </div>
+        </div>
+        <button class="carousel_arrow carousel_arrow-next" id="carouselNext" aria-label="Next">&#8594;</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- About / Stats -->
+  <section class="about">
+    <div class="container">
+      <h2 class="about_heading reveal">창의성과 기술적 전문성을 결합해, 모든 비주얼이 고객의 아이디어에서 출발한 깊이 있는 협업의 결과가 되도록 합니다</h2>
+
+      <div class="about_stats reveal">
+        <div class="about_stat">
+          <h3 class="about_stat_num" data-count="300">0</h3>
+          <span class="about_stat_label">Projects</span>
+        </div>
+        <div class="about_stat_divider"></div>
+        <div class="about_stat">
+          <h3 class="about_stat_num" data-count="60">0</h3>
+          <span class="about_stat_label">Clients</span>
+        </div>
+        <div class="about_stat_divider"></div>
+        <div class="about_stat">
+          <h3 class="about_stat_num" data-count="20">0</h3>
+          <span class="about_stat_label">Countries</span>
+        </div>
+        <div class="about_stat_divider"></div>
+        <div class="about_stat">
+          <h3 class="about_stat_num" data-count="20">0</h3>
+          <span class="about_stat_label">Team members</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why work with us -->
+  <section class="advantages">
+    <div class="container-wide">
+      <div class="advantages_wrapper">
+        <div class="advantages_content reveal">
+          <h2 class="advantages_heading">Why work with us?</h2>
+
+          <ul class="advantages_list">
+            <li class="advantage active" data-img="0">
+              <div class="advantage_header">
+                <span class="advantage_num">01</span>
+                <h3 class="advantage_title">과감한 아이디어를 위한 무한한 창작의 가능성</h3>
+                <svg class="advantage_arrow" viewBox="0 0 18 18" fill="none"><path d="M4.5 9H13.5M13.5 9L9 4.5M13.5 9L9 13.5" stroke="currentColor" stroke-width="1.4"/></svg>
+              </div>
+              <div class="advantage_body">
+                <p>규모는 고객의 비전이 정하고, 저희가 거기에 맞춥니다. 스카이라인을 그리는 일이든, 제품 라인을 론칭하는 일이든, 브랜드를 세우는 일이든 저희의 3D 비주얼라이제이션은 그 야심에 맞춰 확장됩니다.</p>
+              </div>
+            </li>
+            <li class="advantage" data-img="1">
+              <div class="advantage_header">
+                <span class="advantage_num">02</span>
+                <h3 class="advantage_title">빠른 납기, 명확한 프로세스, 예상 밖의 일은 없습니다</h3>
+                <svg class="advantage_arrow" viewBox="0 0 18 18" fill="none"><path d="M4.5 9H13.5M13.5 9L9 4.5M13.5 9L9 13.5" stroke="currentColor" stroke-width="1.4"/></svg>
+              </div>
+              <div class="advantage_body">
+                <p>효율적인 작업 흐름과 투명한 커뮤니케이션으로 예기치 못한 지연 없이 빠르게 결과물을 전달합니다. 진행 상황과 다음 단계, 납기 일정을 항상 공유해 드립니다.</p>
+              </div>
+            </li>
+            <li class="advantage" data-img="2">
+              <div class="advantage_header">
+                <span class="advantage_num">03</span>
+                <h3 class="advantage_title">글로벌한 시야, 로컬한 이해</h3>
+                <svg class="advantage_arrow" viewBox="0 0 18 18" fill="none"><path d="M4.5 9H13.5M13.5 9L9 4.5M13.5 9L9 13.5" stroke="currentColor" stroke-width="1.4"/></svg>
+              </div>
+              <div class="advantage_body">
+                <p>전 세계 고객과 함께하며 글로벌한 관점을 갖되, 지역적 맥락도 놓치지 않습니다. 지역 건축의 특성부터 국제적인 디자인 트렌드까지 반영해, 타깃 시장에 통하면서도 세계 무대에서 돋보이는 비주얼을 만듭니다.</p>
+              </div>
+            </li>
+            <li class="advantage" data-img="3">
+              <div class="advantage_header">
+                <span class="advantage_num">04</span>
+                <h3 class="advantage_title">건축 전문성을 기반으로 합니다</h3>
+                <svg class="advantage_arrow" viewBox="0 0 18 18" fill="none"><path d="M4.5 9H13.5M13.5 9L9 4.5M13.5 9L9 13.5" stroke="currentColor" stroke-width="1.4"/></svg>
+              </div>
+              <div class="advantage_body">
+                <p>건축가와 디자이너가 함께하는 팀이기에 구조와 본질을 이해하며, 고객의 비전을 진정성과 깊이 있게 구현합니다.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="advantages_img_wrapper reveal">
+          <img src="https://picsum.photos/seed/advantage-0/1000/1200" class="advantage_img active" alt="">
+          <img src="https://picsum.photos/seed/advantage-1/1000/1200" class="advantage_img" alt="">
+          <img src="https://picsum.photos/seed/advantage-2/1000/1200" class="advantage_img" alt="">
+          <img src="https://picsum.photos/seed/advantage-3/1000/1200" class="advantage_img" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta">
+    <div class="cta_bg_wrapper">
+      <img src="https://picsum.photos/seed/cta-bg/2000/1400" class="cta_bg" id="ctaBg" alt="">
+      <div class="cta_overlay"></div>
+    </div>
+    <div class="container">
+      <div class="cta_content reveal">
+        <h2 class="cta_heading">다음 프로젝트에 대해 이야기 나눠요</h2>
+        <div class="cta_btns">
+          <a href="#contact" class="btn btn-white"><span class="btn_face btn_face-front">Schedule a call</span><span class="btn_face btn_face-back">Schedule a call</span></a>
+          <a href="#contact" class="btn btn-white"><span class="btn_face btn_face-front">Discuss the project</span><span class="btn_face btn_face-back">Discuss the project</span></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="faq">
+    <div class="container">
+      <h2 class="faq_heading reveal">You asked, we answered</h2>
+
+      <div class="faq_list reveal">
+        <div class="faq_item active">
+          <button class="faq_item_header">
+            <h3 class="faq_item_title">건축 3D 비주얼라이제이션이란 무엇이고, 제 프로젝트에 어떤 도움이 되나요?</h3>
+            <svg class="faq_item_icon" viewBox="0 0 18 18" fill="none"><path d="M4.5 9H13.5" stroke="currentColor" stroke-width="1.4"/><path class="faq_icon_v" d="M9 4.5V13.5" stroke="currentColor" stroke-width="1.4"/></svg>
+          </button>
+          <div class="faq_item_body">
+            <p>건축 3D 비주얼라이제이션은 실제로 짓기 전에 프로젝트를 실사에 가까운 이미지나 애니메이션으로 만들어 보는 작업입니다. 색상과 재질, 비례, 조명을 명확하게 확인할 수 있어 디자인 의사결정과 승인이 쉬워지고, 시공 상의 실수를 줄이며, 아이디어를 전문적으로 전달할 수 있습니다. 마케팅과 고객 커뮤니케이션에도 강력한 도구가 됩니다.</p>
+          </div>
+        </div>
+        <div class="faq_item">
+          <button class="faq_item_header">
+            <h3 class="faq_item_title">어떤 종류의 3D 렌더링 서비스를 제공하나요?</h3>
+            <svg class="faq_item_icon" viewBox="0 0 18 18" fill="none"><path d="M4.5 9H13.5" stroke="currentColor" stroke-width="1.4"/><path class="faq_icon_v" d="M9 4.5V13.5" stroke="currentColor" stroke-width="1.4"/></svg>
+          </button>
+          <div class="faq_item_body">
+            <p>인테리어 렌더링, 익스테리어 렌더링, 제품 비주얼라이제이션, 하이폴리 모델링, 3D 애니메이션, 버추얼 투어 및 360 파노라마까지 폭넓은 3D 렌더링 서비스를 제공합니다.</p>
+          </div>
+        </div>
+        <div class="faq_item">
+          <button class="faq_item_header">
+            <h3 class="faq_item_title">3D 렌더링 프로젝트는 얼마나 걸리나요?</h3>
+            <svg class="faq_item_icon" viewBox="0 0 18 18" fill="none"><path d="M4.5 9H13.5" stroke="currentColor" stroke-width="1.4"/><path class="faq_icon_v" d="M9 4.5V13.5" stroke="currentColor" stroke-width="1.4"/></svg>
+          </button>
+          <div class="faq_item_body">
+            <p>모든 프로젝트는 저마다 달라 개별적인 접근이 필요합니다. 일정은 복잡도, 디테일 수준, 고객의 구체적인 요구 사항에 따라 달라집니다. 담당 매니저가 기간과 비용에 대해 정확한 견적을 안내해 드리며, 언제나 속도와 품질의 최적 균형을 목표로 합니다.</p>
+          </div>
+        </div>
+        <div class="faq_item">
+          <button class="faq_item_header">
+            <h3 class="faq_item_title">완료된 프로젝트를 나중에 다시 수정할 수 있나요?</h3>
+            <svg class="faq_item_icon" viewBox="0 0 18 18" fill="none"><path d="M4.5 9H13.5" stroke="currentColor" stroke-width="1.4"/><path class="faq_icon_v" d="M9 4.5V13.5" stroke="currentColor" stroke-width="1.4"/></svg>
+          </button>
+          <div class="faq_item_body">
+            <p>네, 가능합니다. 프로젝트가 끝난 뒤 몇 달이 지나도 새로운 수정이 필요할 수 있다는 점을 잘 알고 있습니다. 그래서 모든 프로젝트를 온라인과 오프라인 서버에 안전하게 보관하며, 몇 년 뒤에도 파일을 다시 열어 작업을 이어갈 수 있습니다. 모든 프로젝트 파일은 철저히 기밀로 안전하게 관리됩니다.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- Footer -->
+<footer class="footer" id="contact">
+  <div class="container-wide">
+    <div class="footer_cta reveal">
+      <h2 class="footer_cta_heading">다음 프로젝트에 대해 이야기 나눠요</h2>
+      <a href="mailto:hello@islandfactoryable.com" class="btn btn-white"><span class="btn_face btn_face-front">Get personal offer</span><span class="btn_face btn_face-back">Get personal offer</span></a>
+    </div>
+
+    <div class="footer_cols reveal">
+      <div class="footer_col">
+        <div class="footer_col_title">Navigate</div>
+        <ul class="footer_col_list">
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contacts</a></li>
+        </ul>
+      </div>
+      <div class="footer_col">
+        <div class="footer_col_title">Contacts</div>
+        <ul class="footer_col_list">
+          <li><a href="mailto:hello@islandfactoryable.com">hello@islandfactoryable.com</a></li>
+          <li><a href="tel:+10000000000">+1 (000) 000-0000</a></li>
+        </ul>
+      </div>
+      <div class="footer_col">
+        <div class="footer_col_title">Address</div>
+        <ul class="footer_col_list">
+          <li><span class="footer_address">Your City, Your Country</span></li>
+        </ul>
+      </div>
+      <div class="footer_col">
+        <div class="footer_col_title">Socials</div>
+        <ul class="footer_col_list_socials">
+          <li><a href="#" aria-label="Instagram" class="social_link">
+            <svg viewBox="0 0 24 24" fill="none"><rect x="3" y="3" width="18" height="18" rx="5" stroke="currentColor" stroke-width="1.5"/><circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.5"/><circle cx="17.2" cy="6.8" r="1" fill="currentColor"/></svg>
+          </a></li>
+          <li><a href="#" aria-label="Behance" class="social_link">
+            <svg viewBox="0 0 24 24" fill="none"><text x="2" y="17" font-size="15" fill="currentColor" font-family="Arial, sans-serif">Be</text></svg>
+          </a></li>
+          <li><a href="#" aria-label="LinkedIn" class="social_link">
+            <svg viewBox="0 0 24 24" fill="none"><rect x="3" y="3" width="18" height="18" rx="3" stroke="currentColor" stroke-width="1.5"/><circle cx="8" cy="8.5" r="1.2" fill="currentColor"/><path d="M8 11v6M12 11v6M12 13.5c0-1.5 1-2.5 2.3-2.5S17 12 17 13.5V17" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
+          </a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer_bottom">
+      <div class="footer_copyright">islandfactoryable &copy; 2026</div>
+      <a href="#" class="footer_privacy">Privacy Policy</a>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
